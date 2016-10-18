@@ -10,6 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
@@ -17,7 +19,9 @@
     "react-addons-test-utils": "^15.3.2",
     "standard": "^8.4.0",
     "stylelint": "^7.4.2",
-    "stylelint-config-standard": "^13.0.2"
+    "stylelint-config-standard": "^13.0.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "react": "^15.3.2",
