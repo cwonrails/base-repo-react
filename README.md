@@ -4,4 +4,4 @@ Opinionated base repository for new React projects.
 
 ## LICENSE
 
-MIT
+[MIT](https://github.com/cwonrails/base-repo-react/blob/master/LICENSE)
