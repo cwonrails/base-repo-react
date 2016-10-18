@@ -1,3 +1,20 @@
+### JetBrains ###
+.idea
+
+### Logs ###
+*.log*
+
+### macOS #####
+.DS_Store
+
+### Node.js ###
 node_modules
-.DS_STORE
+
+### Vim ###
+Session.vim
+
+### Visual Studio Code ###
+.vscode
+
+### Yarn ###
 .yarnclean
