@@ -19,11 +19,12 @@
     "react-addons-test-utils": "^15.3.2",
     "standard": "^8.4.0",
     "stylelint": "^7.4.2",
-    "stylelint-config-standard": "^13.0.2",
+    "stylelint-config-standard": "^14.0.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "babel-core": "^6.18.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "stylelint-config-standard": "^14.0.0"
