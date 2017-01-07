@@ -1,22 +1,14 @@
 {
   "name": "base-repo-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated base repository for new React projects",
   "repository": {
-    "url": "https://github.com/cwonrails/yarn-react-project",
+    "url": "https://github.com/cwonrails/react-base-repo",
     "type": "git"
   },
   "author": "cwonrails <chriswatsononline@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0",
-    "webpack": "^1.13.3"
-  },
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "next": "^2.0.0-beta.16"
   }
 }
