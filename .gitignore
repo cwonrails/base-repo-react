@@ -1,20 +1,8 @@
-### JetBrains ###
+.next
 .idea
-
-### Logs ###
-*.log*
-
-### macOS #####
-.DS_Store
-
-### Node.js ###
-# node_modules
-
-### Vim ###
-Session.vim
-
-### Visual Studio Code ###
 .vscode
-
-### Yarn ###
+.DS_Store
 .yarnclean
+node_modules
+npm-debug.log
+yarn-error.log

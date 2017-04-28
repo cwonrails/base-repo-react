@@ -1,6 +1,6 @@
 {
   "name": "base-repo-react",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "Opinionated base repository for new React projects",
   "repository": {
     "url": "https://github.com/cwonrails/react-base-repo",
@@ -9,6 +9,11 @@
   "author": "cwonrails <chriswatsononline@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "next": "^2.0.0-beta.16"
+    "next": "^2.3.0-alpha1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
