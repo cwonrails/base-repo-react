@@ -1,19 +1,30 @@
 {
-  "name": "base-repo-react",
-  "version": "0.0.0",
-  "description": "Opinionated base repository for new React projects",
-  "repository": {
-    "url": "https://github.com/cwonrails/react-base-repo",
-    "type": "git"
-  },
-  "author": "cwonrails <chriswatsononline@gmail.com>",
+  "name": "base-repo-next",
+  "version": "1.0.0",
+  "description": "Base repository structure for new next.js projects",
   "license": "MIT",
+  "author": {
+    "name": "Chris Watson",
+    "email": "cwonrails@gmail.com",
+    "url": "https://chriswatson.io"
+  },
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwonrails/base-repo-next"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next-start"
+  },
   "dependencies": {
-    "next": "^2.3.0-alpha1",
+    "next": "latest",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "babel-preset-stage-0": "^6.24.1"
   }
 }

@@ -1,7 +1,7 @@
-# Base Repo React
+# Base Repo Next
 
-Opinionated base repository for new React projects.
+Base repository structure for new next.js projects
 
 ## LICENSE
 
-[MIT](https://github.com/cwonrails/base-repo-react/blob/master/LICENSE)
+[MIT](https://github.com/cwonrails/base-repo-next/blob/master/LICENSE)
