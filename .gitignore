@@ -1,20 +1,25 @@
+### cache ###
+*.cache*
+
 ### JetBrains ###
 .idea
 
-### Logs ###
+### logs ###
+*log*
 *.log*
 
 ### macOS #####
 .DS_Store
 
-### Node.js ###
+### npm ###
 node_modules
-
-### Vim ###
-Session.vim
+npm-debug.log*
+package-lock.json
 
 ### Visual Studio Code ###
 .vscode
 
 ### Yarn ###
 .yarnclean
+yarn-error.log*
+
