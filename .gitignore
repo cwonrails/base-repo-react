@@ -1,25 +1,9 @@
-### cache ###
-*.cache*
-
-### JetBrains ###
-.idea
-
-### logs ###
+dist
 *log*
 *.log*
-
-### macOS #####
+.cache
+coverage
 .DS_Store
-
-### npm ###
-node_modules
-npm-debug.log*
-package-lock.json
-
-### Visual Studio Code ###
-.vscode
-
-### Yarn ###
 .yarnclean
-yarn-error.log*
-
+node_modules
+package-lock.json
