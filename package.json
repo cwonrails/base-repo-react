@@ -1,20 +1,42 @@
 {
-  "name": "base-repo-react",
-  "version": "0.0.3",
-  "description": "Opinionated base repository for new React projects",
+  "name": "base-template-react",
+  "version": "1.0.0",
+  "description": "Opinionated base template for new React projects",
   "repository": {
-    "url": "https://github.com/cwonrails/yarn-react-project",
-    "type": "git"
+    "url": "https://github.com/cwonrails/base-repo-react"
   },
   "author": "cwonrails <chriswatsononline@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "",
+    "clean": "",
+    "develop": "",
+    "format": "prettier --write \"**/*.js{,on}\" \"**/*.md\"  \"**/*.mdx\"",
+    "lint": "eslint . --fix --ext .js,.md,.mdx",
+    "start": "",
+    "test": "jest"
+  },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "webpack": "^3.3.0"
+    "@testing-library/react": "^9.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mdx": "^1.5.5",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1",
+    "husky": "^3.0.8",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.1",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
